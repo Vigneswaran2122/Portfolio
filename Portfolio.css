@@ -609,7 +609,7 @@ input[type="submit"]{
     .container1{
       flex-direction: column;
       justify-content: center;
-      /* height: 100vh; */
+      height: 100vh;
       
     }
     .boxa1{
@@ -628,7 +628,7 @@ input[type="submit"]{
     }
     .container2{
       flex-direction: column;
-      /* height: 850px; */
+      height: 850px;
     }
     .boxb1{
       width: 100%;
@@ -642,7 +642,7 @@ input[type="submit"]{
     padding-left: 50px;
    }
    .container3{
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
    }
    .container5{
@@ -695,7 +695,7 @@ input[type="submit"]{
    .container1{
     flex-direction: column;
     justify-content: center;
-    /* height: 100vh; */
+    height: 100vh;
   }
   .boxa1{
     width: 100%;
@@ -722,7 +722,7 @@ input[type="submit"]{
   }
   .container2{
     flex-direction: column;
-    /* height: 950px; */
+    height: 950px;
   }
   .boxb1{
     width: 100%;
@@ -735,7 +735,7 @@ input[type="submit"]{
   width: 100%;
  }
  .container3{
-  /* height: 780px; */
+  height: 780px;
  }
  .boxc1{
   height: 530px;
