@@ -74,7 +74,7 @@
 
   /* container1 start */
  .container1{
-   padding: 172px;
+   padding: 172px 0px 172px 0px;
    width: 100%;
    display: flex;
  }
@@ -152,7 +152,7 @@
 
 /* container2 start */
 .container2{
-  height: 75vh;
+  padding: 30px 0px 30px 0px;
   width: 100%;
   display: flex;
   background-color: rgba(0, 0, 0, 0.893);
@@ -224,7 +224,7 @@
 
 /* container3 start */
 .container3{
-  height: 100vh;
+ 
   width: 100%;
   background-color: rgba(0, 0, 0, 0.862);
   display: flex;
@@ -242,7 +242,7 @@
 }
 .boxc2{
   color: white;
-  height: 100vh;
+  height: 700px;
   width: 90%;
    padding-left: 50px; 
 }
@@ -317,7 +317,7 @@
 
 /* container4 start */
 .container4{
-  height: 400px;
+padding: 120px 0px 120px 0px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.862);
   display: flex;
@@ -332,13 +332,13 @@
   color: #226f6c;
 }
 .boxd1{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   color: white;
  padding-left: 40px;
 }
 .boxd2{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   color: white;
 }
@@ -526,12 +526,11 @@ border: none;
 
 /* container7 start  */
 .container7{
-  height: 100vh;
+  padding-bottom: 50px;
   width: 100%;
   background-color:rgba(0, 0, 0, 0.922);
 }
 form{
-  height: 100vh;
   width: 100%;
   background-color: white;
   padding: 40px;
@@ -629,7 +628,7 @@ input[type="submit"]{
     }
     .container2{
       flex-direction: column;
-      height: 850px;
+      /* height: 850px; */
     }
     .boxb1{
       width: 100%;
@@ -643,7 +642,7 @@ input[type="submit"]{
     padding-left: 50px;
    }
    .container3{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
    }
    .container5{
@@ -723,7 +722,7 @@ input[type="submit"]{
   }
   .container2{
     flex-direction: column;
-    height: 950px;
+    /* height: 950px; */
   }
   .boxb1{
     width: 100%;
@@ -736,7 +735,7 @@ input[type="submit"]{
   width: 100%;
  }
  .container3{
-  height: 780px;
+  /* height: 780px; */
  }
  .boxc1{
   height: 530px;
