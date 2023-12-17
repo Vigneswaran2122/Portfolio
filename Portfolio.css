@@ -74,7 +74,7 @@
 
   /* container1 start */
  .container1{
-   height: 100vh;
+   padding: 172px;
    width: 100%;
    display: flex;
  }
@@ -610,7 +610,7 @@ input[type="submit"]{
     .container1{
       flex-direction: column;
       justify-content: center;
-      height: 100vh;
+      /* height: 100vh; */
       
     }
     .boxa1{
@@ -696,7 +696,7 @@ input[type="submit"]{
    .container1{
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .boxa1{
     width: 100%;
