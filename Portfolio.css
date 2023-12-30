@@ -559,9 +559,11 @@ label{
   display: block;
   margin: 20px 0;
 }
+
 input,textarea{
   width: 100%;
   padding: 10px;
+  padding-left: 50px;
   box-sizing: border-box;
   outline: none;
   resize: none;
@@ -580,17 +582,192 @@ textarea::-webkit-scrollbar-thumb{
 .center{
   text-align: center;
 }
-input[type="submit"]{
+.center button{
   margin-top: 30px;
-  width: 90%;
-  max-width: 200px;
+  padding: 15px;
   background-color: red;
+  border: none;
   color: white;
   font-size: 17px;
   cursor: pointer;
   border-radius: 3px;
 }
 /* container7 end  */
+
+.name1{
+  position: relative;
+}
+.name1 .s1,.f1{
+  position: absolute;
+  top:44px;
+  right: 10px;
+  font-size: 22px;
+
+ 
+}
+.name1 .fa-user{
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  font-size: 22px;
+}
+.email1 .s2,.f2 {
+  position: absolute;
+  position: absolute;
+    margin-left: -34px;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+.email1 .fa-envelope{
+  position: absolute;
+ padding-top: 6px;
+ margin-left: 10px;
+  font-size: 22px;
+}
+.message1 .s3,.f3{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -34px;
+  font-size: 22px;
+  
+}
+.message1 .fa-message{
+  position: absolute;
+ padding-top: 8px;
+ margin-left: 10px;
+  font-size: 22px;
+}
+.failure-icon,.error{
+  color: red;
+}
+.success-icon {
+color:green;
+}
+.error{
+  font-size: 14.5px;
+  margin-bottom: 25px;
+}
+.success-icon,.failure-icon{
+  opacity: 0;
+
+}
+
+.container1a{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  min-height: 100vh;
+     display: flex; 
+       display: none;  
+  align-items: center;
+  justify-content: center; 
+  position: fixed;
+   z-index: 1; 
+  top: 0;
+  left: 0;
+}
+
+.container2a{
+   height: 100vh; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  min-height: 100vh;
+     display: flex; 
+display: none;   
+  align-items: center;
+  justify-content: center; 
+  position: fixed;
+   z-index: 1; 
+  top: 0;
+  left: 0;
+}
+.model1{
+height: 140px;
+  width: 620px;
+  background-color: green;
+  
+}
+.model1 span{
+  margin-top: 10px;
+  color: white;
+  font-size: 35px;
+  margin-left: 15px;
+}
+.model1 i{
+  margin-left: 70px;
+  font-size: 40px;
+  cursor: pointer;   
+}
+.model1 i:hover{
+  color: red;
+}
+
+.model1 button{
+  padding: 10px 20px 10px 20px;
+  margin-left: 84%;
+  margin-top: 40px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.model1m button a{
+  text-decoration: none;
+
+}
+
+
+.model1 h1{
+  padding-top: 12px;
+  margin-left: 25px;
+}
+.model1 button:hover{
+  color: white;
+  background-color: red;
+}
+
+
+.model2{
+  padding-top: 15px;
+  height: 130px;
+  width: 480px;
+  background-color: red;
+}
+.model2 button{
+  padding: 10px 20px 10px 20px;
+  margin-left: 75%;
+  margin-top: 35px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.model2 button a{
+  text-decoration: none;
+
+}
+
+
+.model2 h2{
+  margin-left: 20px;
+  color: white;
+}
+.model2 button:hover{
+  color: white;
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
 
 /* media query for tab screen start*/
  @media(max-width: 960px) and (min-width:640px) {
@@ -811,6 +988,42 @@ input[type="submit"]{
 .card1 img{
   width: 280px;
 }
+
+.model1 span{
+  margin-top: 20px;
+  font-size: 14px;
+}
+.model1 i{
+  margin-top: 20px;
+  font-size: 14px;
+}
+.model1 button{
+margin-top: 25px;
+margin-left: 250px;
+}
+.model1{
+  width: 320px;
+}
+.model2 {
+  width: 300px;
+}
+.model2 h2{
+  margin-top: 20px;
+  font-size: 16px;
+}
+.model2 button{
+  margin-top: 20px;
+  font-size: 14px;
+}
+.model1{
+  height: 120px;
+}
+.model1 button{
+  padding: 10px 15px 10px 15px;
+}
+
+
+
 }
 
    /* media query for mobile screen end */

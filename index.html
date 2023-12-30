@@ -207,15 +207,15 @@
                 <img src="https://i.pinimg.com/originals/c4/8f/b9/c48fb9775a86585b88c65558e197f649.jpg"/>
                 <div class="card2">
                     <h2>SPICES</h2>
-                    <p>Education is the transmission of knowledge, skills, and character traits. Its precise definition is disputed and some researchers stress the role of critical thinking to distinguish education from indoctrination. </p>
-                    <button>View Project</button>
+                    <p> Spices are natural substances, typically derived from the seeds, fruits, roots, bark, or other parts of plants, that are used to flavor, color, or preserve food. These aromatic and flavorful substances have been an integral part of human history.</p>
+                    <a href="https://vigneswaran2122.github.io/Spicy/" target="_blank"><button>View Project</button></a>
                 </div>
             </div>
             <div class="card">
                 <img src="https://th.bing.com/th/id/OIP.YpH01oPogddYCEJOb9cgQQAAAA?pid=ImgDet&rs=1"/>
                 <div class="card2">
-                    <h2>TOURISM</h2>
-                    <p>Education is the transmission of knowledge, skills, and character traits. Its precise definition is disputed and some researchers stress the role of critical thinking to distinguish education from indoctrination. </p>
+                    <h2>TRAVEL</h2> 
+                    <p> Travel refers to the act of moving from one place to another, typically over a distance. It involves a journey or excursion, and it can encompass various modes of transportation, such as walking, driving, flying, sailing.</p>
                     <button>View Project</button>
                 </div>
             </div>
@@ -277,25 +277,58 @@
            <!-- container7 start -->
            <div class="container7" id="contact">
            <div class="overlay">
-                <form>
+                <form id="form">
                 <h1>CONTACT ME</h1>
+                <div class="name1">
                 <label for="name">Name:</label>
+                <i class="fas fa-user"></i>
                 <input type="text" id="name" placeholder="Enter the name">
-
+                <i class="fas fa-exclamation-circle failure-icon f1"></i>
+                <i class="far fa-check-circle success-icon s1"></i>
+                <div class="error"></div>
+            </div>
+                <div class="email1">
                 <label for="email">Email:</label>
+                <i class="fa-solid fa-envelope"></i>
                 <input type="text" id="email" placeholder="Enter the email">
-            
+                <i class="fas fa-exclamation-circle failure-icon f2"></i>
+                <i class="far fa-check-circle success-icon s2"></i>
+                <div class="error"></div>
+            </div>
+            <div class="message1">
                 <label for="message">Message:</label>
-                <textarea id="text" id="message" placeholder="Enter the message" rows="6"></textarea>
-                
+                <i class="fa-solid fa-message"></i>
+                <textarea type="text" id="mess" placeholder="Enter the message" rows="6"></textarea>
+                <i class="fas fa-exclamation-circle failure-icon f3"></i>
+                <i class="far fa-check-circle success-icon s3"></i>
+                <div class="error"></div>
+            </div>
                 <div class="center">
-                    <input type="submit" value="Send Message">
-                    <p id="success"></p>
+                    <button  id="btn" type="submit" > Send Message</button>
                 </div>
             </form>
         </div>
-           </div>
-             <!-- container7 start -->
+          </div>
+             <!-- container7 end -->
+
+             <!--PopUp Container start-->
+<div class="container1a" id="container1">
+    <div class="model1">
+      <span>SUBMITTED SUCCESSFULLY</span> 
+      <i class="fa-solid fa-xmark" onclick="ClosePopup()"   ></i>
+      <a href="https://www.khanacademy.org/profile/me/courses" target="_blank" ><button> OK</button></a>
+    </div>
+  
+  </div>
+  
+  <div class="container2a" id="container2">
+    <div class="model2">
+      <h2>PLEASE FILL ALL THE DETAILS </h2>
+      <button onclick="ClosePopup1()" id="closebtn"> OK</button>
+    </div>
+  </div>
+  <!--PopUp Container end-->
+          <script src="./Contact us.js"></script>
     
     </body>
     <!-- Body tag end -->
