@@ -215,11 +215,25 @@
   height: 50px;
   width: 50px;
   text-align: center;
+  cursor: pointer;
 }
 .boxb3 i:hover{
   background-color: #16bab4;
   color: white;
 }
+.boxb3 span{
+  font-size: 10px;
+  color: white;
+  padding: 10px; 
+  background-color: red;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.boxb3 span:hover{
+ opacity: 1;
+}
+
 /* container2 end */
 
 /* container3 start */
@@ -643,6 +657,7 @@ input[type="submit"]{
    .container3{
     width: 100%;
    }
+   
    .container5{
     grid-template-columns: auto auto;
    }
