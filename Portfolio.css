@@ -925,9 +925,7 @@ height: 140px;
  .boxb2{
   width: 100%;
  }
- .container3{
-  height: 780px;
- }
+ 
  .boxc1{
   height: 530px;
   width: 10%;
@@ -938,10 +936,20 @@ height: 140px;
   margin-top: 70px;
  }
  .boxc2 h1{
-  margin: 0;
+ margin: 0;
+ 
  } 
+
+ .cbh{
+      margin-top: 90px;
+     
+ }
+ .cch{
+      margin-top: 60px;
+ }
  .boxc2 h2,p{
   margin-left: 0px;
+  
  }
  .pi1{
   margin-top: 110px;
