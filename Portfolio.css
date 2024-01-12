@@ -496,7 +496,7 @@ overflow: hidden;
   background-color:rgba(0, 0, 0, 0.922) ;
   justify-content: center;
   gap: 42px;
-  padding-bottom: 40px;
+  padding-bottom: 5px;
 }
 .card1{
   height: 500px;
@@ -526,7 +526,7 @@ color: white;
 border: none;
 }
 .heading4{
-  height: 120px;
+  height: 110px;
   width: 100%;
   background-color:rgba(0, 0, 0, 0.922);
   display: flex;
