@@ -2,6 +2,10 @@ let showbtn = document.getElementById("btn");
 let closebtn = document.getElementById("closebtn");
 let model = document.getElementById("container1");
 let model2 = document.getElementById("container2");
+
+ function myFunction(){
+  window.location.reload();
+ }
  
 let ClosePopup = () => {
     model.style.display = "none";
